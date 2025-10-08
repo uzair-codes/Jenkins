@@ -1,4 +1,6 @@
-name : My First GitHub Actions CI/CD Pipeline
+# This is my first GitHub Action CI/CD Pipeline
+
+name : Testing Python Cal
 
 on :
   push :
