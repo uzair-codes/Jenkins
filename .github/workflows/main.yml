@@ -22,10 +22,10 @@ jobs:
         python-version: '3.12'
 
     - name: Install dependencies
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -U pip pytest
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install -U pip pytest
 
     - name: Run tests
       run: |
